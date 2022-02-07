@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Introduction of HTML </title> <!--Title Tag (introsuction of HTML)-->
+
+</head>
+<body>
+<h1>Introduction of HTML Tags </h1>  <!--headinng tag1-->
+<h2>Added title tag and Heading Tag</h2>
+<h3>Added Images Tag</h3>
+<h4>Added Emoji  Tag</h4>
+<h5>Added entities and Formating  tag</h5>
+<h6>Addded a href and paragrapgh tag</h6> <!--heading tag 6-->
+<img src="HTML.png.png" alt="HTML" width="200" height="100"> <!-- use image tag for showing the Image-->
+<p style="font-size:48px">     <!-- use emoji tag for different emoji-->
+    &#128512; &#128516; &#128525; </p> 
+<p>I am <b>Tring</b> to <i>write</i> a &lt;html&gt; tag </p> <!--Use paraghraph tag in which use entities tag also and Formating tags-->
+<pre>The element displayed in fixed size</pre> <!--use pre tag for displayed text in fixed size-->
+<a href="https://www.google.co.in/">Visit Google.com!</a>  <!-- use a tag for add the link to redirect to the page-->
+<div>Basic of HTML</div>
+<p>HTML (Hypertext Markup Language) is the code that is used to structure a web page and its content. 
+    For example, content could be structured within a set of paragraphs, a list of bulleted points, 
+    or using images and data tables. As the title suggests, 
+    this article will give you a basic understanding of HTML and its functions.</p>  <!-- BLock level Element-->
+</body>
+</html>

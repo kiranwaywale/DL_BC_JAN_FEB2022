@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+         box-sizing: border-box; 
+        }
+        body {
+          margin: 0;
+        }
+        #main {
+          display: flex;
+          min-height: calc(100vh - 40vh);
+        }
+        #main > article {
+          flex: 1;
+        }
+        #main > nav, 
+        #main > aside {
+          flex: 0 0 20vw;
+          background: beige;
+        }
+        #main > nav {
+          order: -1;
+        }
+        header, footer, article, nav, aside {
+          padding: 1em;
+        }
+        /*
+        Header background*/
+        header, footer ,aside{             
+          background: #FFEFBA;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+          height: 20vh;
+        }
+
+    
+/*Nav CSS*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  height: 43vh;
+}
+.side-nav,
+.nav-menu {
+  height: 118%;
+}
+/*Background for vertical nav */
+.side-nav .nav-menu {
+  list-style: none;
+  padding: 50px 0;
+  width: 180px;
+  background: #3E5151;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #DECBA4, #3E5151);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #DECBA4, #3E5151); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+/*css use for vertical nav bar*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+/*For logo */
+img {        
+  float: left;
+}
+/*Article section start */
+.article{
+  background-color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 95%;
+  padding: 08px;
+  margin: 5px 0 20px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+/* Set a style for the submit button */
+.registerbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 10px 10px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+text-align: center;
+}
+/*Article section end*/
+/*start footer split section*/
+.left{ 
+   width: 33%; 
+   float: left; 
+} 
+.right{ 
+   width: 33%; 
+   float: right; 
+} 
+.clear-fix{ 
+  clear: both; 
+} 
+        /*end split section*/
+
+        * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font: 24px arial, sans-serif;
+    text-align: center;
+  }
+  
+  .header {
+    overflow: hidden;
+  }
+  
+  .article {
+    float: left;
+    width: 25%;
+    height: 300px;
+    background: PeachPuff;
+    padding: 20px;
+  }
+  
+  .navbar {
+    float: left;
+    width: 75%;
+    height: 300px;
+    background: MediumAquamarine;
+    padding: 20px;
+  }
+  
+  @media (max-width: 40em) {
+    .header,.article {
+      float: none;
+      width: auto;
+    }
+  }
+  
+  .p {
+    font-size: 13px;
+    padding-top: 120px;
+  }
+        /* End Media Queries*/
+</style>
+      <!--Add NAV icon-->
+      <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    <title>Insurance - Happy Hands Health Insurance</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Additional CSS Files -->
+   
+</head>
+<body>
+    <!--Header section with Logo-->
+    <header class="header"> <img src="kw logo.png" alt="" height="110",width=180><h1 style="color: crimson;text-align: center;"><b>Web Development</b></h1>
+        </header>
+  <div id="main">
+      <!--Article Section Registration part-->
+    <article >
+        <form action="/action_page.php">
+            <div class="container">
+                <h1>Register</h1>
+                <hr>
+            
+                <label for="email"><b>Email:</b></label>
+                <input type="text" placeholder="Enter Email" name="email" id="email" required>
+            
+                <label for="psw"><b>Password:</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+            
+                <label for="psw-repeat"><b>Repeat Password:</b></label>
+                <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+                <hr>
+                <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+            
+                <button type="submit" class="registerbtn">Register</button>
+              </div><br> <br><br>
+              
+                <p>Already have an account? <a href="#">Sign in</a>.</p>
+              
+        </form>
+    </article>
+    <nav>  
+        <!--Start the nav bar Section-->
+        <div class="container">
+            <nav class="side-nav">
+              <ul class="nav-menu">
+                <li class="nav-item"><a href="#"><i class="fas fa-tachometer-alt"></i><span class="menu-text">HOME</span></a></li>
+                <li class="nav-item"><a href="#"><i class="fas fa-user"></i><span class="menu-text">Search</span></a></li>
+                <li class="nav-item active"><a href="#"><i class="fas fa-file-alt"></i><span class="menu-text">User</span></a></li>
+                <li class="nav-item"><a href="#"><i class="fas fa-play "></i><span class="menu-text">Post</span></a></li>
+                <li class="nav-item"><a href="#"><i class="fas fa-sign-out-alt"></i><span class="menu-text">exit</span></a></li>
+              </ul>
+            </nav>
+          </div>
+          
+
+    </nav>
+    <aside><b>Video:</b>
+      <video width="320" height="240" controls>
+        <source src="logo video.mp4" type="video/mp4"></video>
+    </aside>
+  </div>
+  <footer><div class="left">
+            <p>
+              <h2>Address:</h2>
+              SGGSIET Vishnupuri <br>Nanded 431606<br>
+              Maharashtra
+            </p>
+          </div>
+  
+      <div class="right">
+           <h2>Contact US:</h2>
+           <p>Email:kiran.waywale@gmail.com <br>
+            Contact:8379061436
+           </p>
+      
+       </div>
+    </footer>
+  <script>$(function() {
+    $("li").click(function(e) {
+      e.preventDefault();
+      $("li").removeClass("active");
+      $(this).addClass("active");
+    });
+  });
+
+</script>
+</body>
+</html>

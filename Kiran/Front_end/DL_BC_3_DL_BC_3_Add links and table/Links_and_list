@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DL_BC_Task005 HTML</title> <!--Title Tag ( DL_BC_Task005 HTML)-->    
+        <style>
+            h3 {
+              background-image: url('plane.jpg');
+              background-repeat: no-repeat;
+              background-attachment: fixed;
+              background-size: cover;
+            }
+            </style>
+     </head>
+     
+<body>
+    
+    <h3 style="color:rgb(230, 100, 14);">Google Homepage</h3>
+    <a href="https://www.google.com/">Visit Google.com!</a>    <!--Google Home page-->
+
+    <h3 style="color:rgb(19, 5, 97);">Facebook</h3>
+    <a href="https://www.facebook.com/">Visit Facebook !</a>    <!--Facebook page-->
+
+
+    <h3 style="color:green;">Basic Demo</h3>
+    <a href="file:///E:/Bootcamp/Demo.html">Visit Basic Demo!</a>    <!--Basic Demo page-->
+
+    <h3 style="color:brown;">Basic List and Tables</h3>
+    <a href="file:///E:/Bootcamp/DL_BC_List%20and%20table.html">Visit Basic List and Table!</a>    <!--Basic List and table page-->
+
+    <style>
+    table, th, td {
+      border:1px solid black;
+    }
+    </style>
+    
+<h2 style="color:brown;"> <q>Table</q> </h2>
+<table>
+    <caption style="background-color:DodgerBlue;"</caption> <b> Employee Details</b></caption>  <!--Caption for table Title-->
+    <tr>                         <!--tile table-->
+      <th><p style="color:rgb(67, 35, 182);">EMP ID</p>
+        </th>
+        
+      <th><p style="color:rgb(66, 45, 185);">EMP Name</p> </th>
+
+      <th><p style="color:rgb(66, 45, 185);">Designation</p></th>
+      <th><p style="color:rgb(66, 45, 185);">Mobile</p></th>
+    </tr>
+    <tr>
+      <td>EMP1</td>                 <!--for employee one -->
+      <td>Kiran</td>
+      <td>Web Devloper </td>
+      <td>8000800080 </td>
+    </tr>
+    <tr>
+      <td>EMP2</td>                  <!--For Employee two-->
+      <td>Rahul</td>
+      <td>Web Devloper</td>
+      <td>9000056010 </td>
+    </tr>
+    <tr>
+      <td>EMP3</td>                 <!--For Employee three-->
+      <td>Priya </td>
+      <td>Software Engineer</td>
+      <td>9876543210</td>
+    </tr>
+    <tr>                             <!--For Employee four-->
+      <td>EMP4</td>
+      <td>Payal</td>
+      <td>HR</td>
+      <td>6541239870</td>
+    </tr>
+    <tr>
+      <td>EMP5</td>                     <!--For Employee five-->
+      <td>Akash</td>
+      <td>Manager</td>
+      <td>6587954132 </td>
+    </tr>
+    <tr>
+      <td>EMP6</td>                    <!--For Employee six-->
+      <td>Madan</td>
+      <td>Devloper</td>
+      <td>8795463215</td>
+
+
+            
+    </tr>
+  </table>
+
+
+<br><q style="background-color:rgb(189, 23, 23);">Nested List</q>
+<ul>
+  <li> HTML
+    <ul>                       <!-- list for HTML info-->
+      <li>HTML is the standard markup language for Web pages.</li>
+      <li>With HTML you can create your own Website</li>
+      <li>HTML is easy to learn </li>
+    </ul>
+</li>
+<li>CSS                  <!-- list for CSS introduction-->
+  <ul>
+    <li>CSS is the language we use to style an HTML document.</li>
+    <li>CSS describes how HTML elements should be displayed. </li>
+    <li>This tutorial will teach you CSS from basic to advanced.</li>
+  </ul>
+</li>
+</ul>
+<li>JavaScript                 <!-- list of Javascript info-->
+    <ul>
+      <li>JavaScript is the world's most popular programming language.</li>
+      <li>JavaScript is the programming language of the Web. </li>
+      <li>JavaScript is easy to learn.</li>
+    </ul>
+  </li>
+ 
+  &lt;!DOCTYPE html&gt;
+  <br>
+  &lt;html&gt;;<br>
+  &lt;head&gt;<br>
+  &lt;title&gt;Page Title&lt;/title&gt;<br>
+  &lt;/head&gt; <br>
+  &lt;body&gt; <br>
+  
+  &lt;h2&gt;Hello&lt;/h1&gt; <br>
+  
+  &lt;/body&gt;<br>
+  &lt;/html&gt;<br>
+<br> <br>
+  <caption><h3>Address</h3></caption>
+  <address> 
+  At Nanded 431602:<br>
+  Maharashtra<br>
+  India
+  </address>
+
+  
+    <caption><h3>EMOJI</h3></caption>
+
+    <p style="font-size:48px">
+    &#128512; &#128516; &#128525; &#128151;
+    </p>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+   <title>Table</title>
+    </head>
+<body>
+    <style>
+        table, th, td {
+          border:1px solid black;
+        }
+        </style>
+        
+    <h1> <q>Table</q> </h1>
+    <table>
+        <caption style="background-color:DodgerBlue;"</caption> <b> Trainee Details</b></caption>  <!--Caption for table Title-->
+        <tr>                         <!--tile table-->
+          <th><p style="color:rgb(67, 35, 182);">EMP ID</p>
+            </th>
+
+          <th><p style="color:rgb(66, 45, 185);">EMP Name</p> </th>
+
+          <th><p style="color:rgb(66, 45, 185);">Designation</p></th>
+        </tr>
+        <tr>
+          <td>EMP1</td>                 <!--for employee one -->
+          <td>Kiran</td>
+          <td>Web Devloper </td>
+        </tr>
+        <tr>
+          <td>EMP2</td>                  <!--For Employee two-->
+          <td>Rahul</td>
+          <td>Web Devloper</td>
+        </tr>
+        <tr>
+          <td>EMP3</td>                 <!--For Employee three-->
+          <td>Priya </td>
+          <td>Software Engineer</td>
+        </tr>
+        <tr>                             <!--For Employee four-->
+          <td>EMP4</td>
+          <td>Payal</td>
+          <td>HR</td>
+        </tr>
+        <tr>
+          <td>EMP5</td>                     <!--For Employee five-->
+          <td>Akash</td>
+          <td>Manager</td>
+        </tr>
+        <tr>
+          <td>EMP6</td>                    <!--For Employee six-->
+          <td>Madan</td>
+          <td>Devloper</td>
+        </tr>
+      </table>
+
+      <h2 style="background-color:rgb(209, 148, 148);">List</h2>
+
+<q style="background-color:rgb(189, 23, 23);">Nested List</q>
+<ul>
+  <li> Front End
+    <ul>                       <!-- list for front End-->
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Bootstrap</li>
+    </ul>
+</li>
+<li>Black End                   <!-- list for Back End-->
+  <ul>
+    <li>My SQL</li>
+    <li>ORRACLE</li>
+    <li>SQL</li>
+  </ul>
+</li>
+</ul>
+
+
+<h2 style="background-color:rgb(228, 21, 166);">Personal Details</h2>
+
+<table style="width:80%">              <!-- Personal details Table-->
+  <tr>
+    <td>Contact Number</td>
+    <td>Email ID</td>
+    <td>Address</td>
+  </tr>
+  <tr>
+    <td>8379061436</td>
+    <td>kiranxxxxxx@gmail.com</td>
+    <td>Nanded</td>
+  </tr>
+</table>
+   
+</body>
+</html>
