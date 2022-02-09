@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <body>
+            <div>
+                <!--Default Value-->
+                <div>
+                    <h2>default Value</h2>
+                    <p>Setting a default value to a function parameter.</p>
+                    <p id="demo"></p>
+                </div>
+
+
+                <script>
+                    function myFunction(x, y) {
+                    if (y === undefined) {
+                        y = 2;
+                    }  
+                        return x * y;
+                        }
+                    document.getElementById("demo").innerHTML = myFunction(4);
+                </script>
+            </div>
+            <div>
+                <!--Largest Value-->
+                <div>
+                    <H2>Largest Number</H2>
+                    <p>Finding the largest number.</p>
+                    <p id="test"></p>
+                </div>  
+                <script>
+                    function findMax() {
+                    let max = -Infinity;
+                    for(let i = 0; i < arguments.length; i++) {
+                    if (arguments[i] > max) {
+                    max = arguments[i];
+                    }
+                    }
+                    return max;
+                    } 
+                    document.getElementById("test").innerHTML = findMax(4, 5, 6);
+                </script>
+            </div>
+
+        <!--Sum of all Argument-->
+            <div> 
+                <div>
+                    <h2>sum of Element</h2>
+                    <p>Sum of all arguments:</p>
+                    <p id="tst"></p>
+                </div>
+                <script>
+                    function sumAll() {
+                    let sum = 0;
+                    for(let i = 0; i < arguments.length; i++) {
+                    sum += arguments[i];
+                    }
+                    return sum;
+                    }
+                    document.getElementById("tst").innerHTML = sumAll(1, 123, 500, 115, 44, 88);
+                </script>
+            </div>
+        <!--Onfocusin-->
+            <div>
+                <div>
+                    <h2>OnFocusin</h2>
+                    Enter your name: <input type="text" onfocusin="focusFunction(this)">
+
+                    <p>When the input field gets focus, a function is triggered which changes the background-color.</p>
+                </div>
+                <script>
+                    function focusFunction(x) {
+                    x.style.background = "yellow";
+                    }
+                </script>
+            </div>
+        
+            <div>
+                <div>
+                    <h2>Upper Case</h2>
+                    Enter your name: <input type="text" id="fname" onblur="myFunction()">
+
+                    <p>When you leave the input field, a function is triggered which transforms the input text to upper case.</p>
+                </div>
+                <script>
+                    function myFunction() {
+                    var x = document.getElementById("fname");
+                    x.value = x.value.toUpperCase();
+                    }
+                </script>
+            </div>
+            <!--Date and Time-->
+            <div>
+                <h2>DATE and TIME</h2>
+                <button onclick="document.getElementById('time').innerHTML=Date()">The time is?</button>
+
+                <p id="time"></p>
+            </div>
+        <!--Mouseover-->
+            <div>
+                <div>
+                    <h2>Mouseover Event</h2>
+                    <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="my logo.jpeg" alt="KW Logo" width="32" height="32">
+
+                    <p>The function bigImg() is triggered when the user moves the mouse pointer over the image.</p>
+                    <p>The function normalImg() is triggered when the mouse pointer is moved out of the image.</p>
+                </div>  
+                <script>
+                    function bigImg(x) {
+                    x.style.height = "64px";
+                    x.style.width = "64px";
+                    }
+
+                    function normalImg(x) {
+                    x.style.height = "32px";
+                    x.style.width = "32px";
+                    }
+                </script>
+            </div>
+            <!--change Background-->
+            <div>
+                <div>
+                    <h2>Change image Background</h2>
+                    <button onclick="imgFunction()">Set background</button>
+                </div>  
+                <script>
+                    function imgFunction() {
+                    document.body.style.background = "lightblue url('my logo.jpeg') no-repeat right top";
+                    
+                    }
+                </script>
+            </div>
+    </body>
+</html>
+
+
