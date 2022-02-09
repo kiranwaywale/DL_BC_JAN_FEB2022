@@ -124,8 +124,8 @@
                 </div>  
                 <script>
                     function imgFunction() {
-                    document.body.style.background = "lightblue url('img_nature_wide.jpg') no-repeat right top";
-                    
+                    document.body.style.background = lightblue ;
+                    document.body.style.backgroundImage = "url('img_nature_wide.jpg')";
                     }
                 </script>
             </div>
