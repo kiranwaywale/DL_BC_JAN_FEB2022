@@ -1,0 +1,251 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <!--Simple Array-->
+        <h1 style="color: brown;">--Array--</h1>
+        <div>
+            <h2 style="color: blue;"> <u>Simple Cars Arrays</u></h2>
+            <p id="tst"></p>
+
+            <script>
+                const cars = ["Honda", "Audi", "Benz"];
+                document.getElementById("tst").innerHTML = cars;
+            </script>
+        </div>
+        <!--Array Methods-->
+        <!--Sort Array Method-->
+        <div>
+        <h2 style="color: blue;"><u>Sort Array Method</u></h2>
+        <p><b>The toString() method returns an array as a comma separated string</b></p>
+            <p id="demo"></p>
+            <script>
+                const fruits = ["Banana", "Orange", "Apple", "Mango"];
+                document.getElementById("demo").innerHTML = fruits.toString();
+            </script>
+        </div> 
+        <!--Pop Array Method-->
+            <div>
+            <h2 style="color: blue;"><u>Pop Array Method</u></h2>
+                <p><b>The pop() method removes the last element from an array.</b></p>
+
+                <p id="demo1"></p>
+                <p id="demo2"></p>
+
+                <script>
+                    const fruit = ["Banana", "Orange", "Apple", "Mango"];
+                    document.getElementById("demo1").innerHTML = fruit;
+                    fruit.pop();
+                    document.getElementById("demo2").innerHTML = fruit;
+                </script>
+            </div>
+            <!--Push Array Method-->
+            <div>
+                <h2 style="color: blue;"><u>Push Array Method</u></h2>
+                <p><b> push() method appends a new element to an array:</b></p>
+                
+                <p id="demo3"></p>
+                <p id="demo4"></p>
+                
+                <script>
+                const frut = ["Banana", "Orange", "Apple", "Mango"];
+                document.getElementById("demo3").innerHTML = frut;
+                frut.push("Kiwi");
+                document.getElementById("demo4").innerHTML = frut;
+                </script>
+            </div>
+            <!---Shift Methods-->
+            <div>
+                <h2 style="color: blue;"><u>Shift Array Method</u></h2>
+                <p> <b> shift() method removes the first element of an array (and "shifts" the other elements to the left):</b></p>
+                
+                <p id="demo5"></p>
+                <p id="demo6"></p>
+                
+                <script>
+                const frts = ["Banana", "Orange", "Apple", "Mango"];
+                document.getElementById("demo5").innerHTML = frts;
+                frts.shift();
+                document.getElementById("demo6").innerHTML = frts;
+                </script>
+            </div>
+        <!--Unshift Array Method-->
+            <div>
+                <h2 style="color: blue;"><u>Unshift Array Method</u></h2>
+                <p> <b> unshift() method adds new elements to the beginning of an array:</b></p>
+                
+                <p id="tst1"></p>
+                <p id="tst2"></p>
+                
+                <script>
+                const frrts = ["Banana", "Orange", "Apple", "Mango"];
+                document.getElementById("tst1").innerHTML = frrts;
+                frrts.unshift("Lemon");
+                document.getElementById("tst2").innerHTML = frrts;
+                </script>
+                
+            </div> <br>
+        <!--Math Function-->
+            <h1 style="color: brown;"> --Math Functions--</h1>
+            <div> 
+                <div>
+                    <h2 style="color: blue;"> <u>Math round Function</u> </h2>
+                    <p>Math.round(x) returns the value of x rounded to its nearest integer:</p>
+                    <script>
+                        document.write(Math.round(4.7)+"<br>");
+                    </script>
+                </div>
+                <div>
+                    <h2 style="color: blue;"><u>Math ceil function</u></h2>
+                    <p>Math.ceil() rounds a number <strong>up</strong> to its nearest integer:</p>
+                    <script>
+                        document.write(Math.ceil(4.7)+"<br>")
+                    </script>
+                </div>
+                <div>
+                    <h2 style="color: blue;"><u>Math floor Function</u></h2>
+                    <p>Math.floor(x) returns the value of x rounded <strong>down</strong> to its nearest integer:</p>
+                    <script>
+                        document.write(Math.floor(4.7)+"<br>");
+                    </script>
+                </div>
+                <div>
+                    <h2 style="color: blue;"><u> Math trunc Function</u></h2>
+                    <p>Math.trunc(x) returns the integer part of x:</p>
+                    <script>
+                        document.write(Math.trunc(4.7)+"<br>");
+                    </script>
+                </div>
+                <div>
+                    <h2 style="color: blue;"><u>Math Sign function</u></h2>
+                    <p>Math.sign(x) returns if x is negative, null or positive:</p>
+                    <script>
+                        document.write(Math.sign(-2.7)+"<br>");
+                    </script>
+                </div>
+                <div>
+                    <h2 style="color: blue;"><u>Math power Function</u></h2>
+                    <p>Math.pow(x,y) returns the value of x to the power of y:</p>
+                    <script>
+                        document.write(Math.pow(4,2)+"<br>");
+                    </script> 
+                </div>
+                <div>
+                    <h2 style="color: blue;"><u>Math Squareroot Functoin</u></h2>
+                    <p>Math.pow(x,y) returns the value of x to the power of y:</p>
+                    <script>
+                        document.write(Math.sqrt(81)+"<br>");
+                    </script>
+                </div>
+                <div>
+                    <h2 style="color: blue;"><u>Math Minimum Value Function</u></h2>
+                    <p>Math.min() returns the lowest value in a list of arguments:</p>
+                    <script>
+                        document.write(Math.min(0, 150, 30, 20, -8, -200)+"<br>");
+                    </script>
+                </div>
+                <div>
+                    <h2 style="color: blue;"><u>Math Maximum Value function</u></h2>
+                    <p>Math.max() returns the highest value in a list of arguments.</p>
+                    <script>
+                        document.write(Math.max(0, 150, 30, 20, -8, -200)+"<br>");
+                    </script>
+                </div>       
+            </div>
+                <!--Date in javascript-->
+                <h1 style="color: brown;"> --Date and Time--</h1>
+                <div>
+                    <div>
+                        <h2 style="color: blue;"><u>Date and Time</u></h2>
+                        <p id="demoo"></p>
+                        <script> 
+                            const d = new Date();
+                            document.getElementById("demoo").innerHTML = d;
+                        </script>
+                    </div>
+                    <div>
+                        <h2 style="color: blue;"><u> Get Month Method</u></h2>
+                        <p>To get the correct month, you must add 1:</p>
+                        <p id="demo7"></p>
+                        <script>
+                            const m = new Date();
+                            document.getElementById("demo7").innerHTML = d.getMonth() + 1;
+                        </script>
+                    </div>
+                    <div>
+                        <h2 style="color: blue;"><u>Get Full Year Method</u></h2>
+                        <p>The getFullYear() method returns the full year of a date:</p>
+                        <p id="demo8"></p>
+                        <script>
+                        const y = new Date();
+                        document.getElementById("demo8").innerHTML = d.getFullYear();
+                        </script>
+
+                    </div>
+                </div>
+                <!--String Methods-->
+                <h1 style="color: brown;"> --Strings--</h1>
+                <div>
+                    <!--LOwer case String-->
+                    <div>
+                        <h2 style="color: blue;"><u>Lower Case String</u></h2>
+                        <script>  
+                            var s1="Kiran WAYWALE";  
+                            var s2=s1.toLowerCase();  
+                            document.write(s2);  
+                        </script> 
+                    </div> 
+                 <!--UPPER CASE STRING-->
+                    <div>
+                        <h2 style="color: blue;"><u>Upper Case String</u></h2>
+                        <script>  
+                            var s1="kiran waywale";  
+                            var s2=s1.toUpperCase();  
+                            document.write(s2);
+                        </script>  
+                    </div>
+                 <!-- Slice  of string-->
+                    <div>
+                        <h2 style="color: blue;"><u>Slice String</u></h2>
+                        <script>  
+                            var s1="kiranwaywale";  
+                            var s2=s1.slice(5,12);  
+                            document.write(s2);  
+                        </script>    
+                    </div>
+                    <!--Length of String-->
+                    <div>
+                        <h2 style="color: blue;"><u>Length String Properties</u></h2>
+                        <p id="l1"></p>
+                        
+                        <script>
+                        let text = "KIRANWAYWALE";
+                        document.getElementById("l1").innerHTML = text.length;
+                        </script>
+                    </div>
+                 </div>
+                <!--Error-->
+                 
+                <div>
+                 <h1 style="color: brown;"> Error</h1>
+                 <p>How to use <b>catch</b> to display an error.</p>
+
+                 <p id="d"></p>
+                 
+                 <script>
+                 try {
+                   adddlert("Welcome guest!");
+                 }
+                 catch(err) {
+                   document.getElementById("d").innerHTML = err.message;
+                 }
+                 </script>
+                 
+                </div>
+    </body>
+    </html>
