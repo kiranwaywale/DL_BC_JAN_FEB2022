@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+        header {
+          padding: 1em;
+        }
+        /*
+        Header background*/
+        header{             
+          background: #FFEFBA;  /* fallback for old browsers */
+         background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+         background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+          height: 20vh;
+        }
+        /* Quiz*/
+      
+</style>
+</head>
+<body>
+  <div>
+    <!--Header section with Logo-->
+    <header><h1 style="color: rgb(92, 30, 192);text-align: center;"><b>Quiz web App </b></h1></header>
+  </div>
+  <br><br>
+  <div  class="quiz-container" id="quiz">
+    <div class="quiz-header">
+      <h2 id="question">Question Text</h2>
+      <ul>
+        <li>
+          <input type="radio" name="answer" id="a" class="answer">
+          <label for="a" id="a_text">Answer</label>
+        </li>
+
+        <li>
+          <input type="radio" name="answer" id="b" class="answer">
+          <label for="b" id="b_text">Answer</label>
+        </li>
+
+        <li>
+          <input type="radio" name="answer" id="c" class="answer">
+          <label for="c" id="c_text">Answer</label>
+        </li>
+
+        <li>
+          <input type="radio" name="answer" id="d" class="answer">
+          <label for="d" id="d_text">Answer</label>
+        </li>
+
+      </ul>
+    </div>
+
+    <button id="submit">Submit</button>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

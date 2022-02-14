@@ -1,0 +1,21 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "pwa-chrome",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "pwa-msedge",
+            "request": "launch",
+            "name": "Open Array_mathfun_string.html",
+            "file": "e:\\Bootcamp\\DL_BC_JAN_FEB2022\\Kiran\\Front_end\\DL_BC_13_arraymethods_mathfun_string\\Array_mathfun_string.html"
+        }
+    ]
+}
