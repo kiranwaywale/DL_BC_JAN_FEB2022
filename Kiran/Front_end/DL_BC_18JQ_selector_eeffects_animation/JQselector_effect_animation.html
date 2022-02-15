@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style> 
+        #panel, #flip
+         {
+          padding: 5px;
+          text-align: center;
+          background-color: #e5eecc;
+          border: solid 1px #c3c3c3;
+          width:500px;
+        }
+        
+        #panel 
+        {
+            width:500px;
+           display: none;
+        }
+
+        #panel1, #flip1 
+        {
+          padding: 5px;
+          text-align: center;
+          background-color: #e5eecc;
+          border: solid 1px #c3c3c3;
+          width:500px;
+        }
+        
+        #panel1 {
+            width:500px;
+           
+        }
+        </style>
+    <!--Paraghraph Selector-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+
+        //You can select all <p> elements on a page like this $("p")
+        $(document).ready(function()
+        {
+        $("#button0").click
+        (function()
+        {
+            $("p").hide();
+        });
+        });
+        </script>
+        <!--ID Selector-->
+         <script>        
+            $(document).ready(function(){
+            $("#button1").click(function(){
+                $("#test").hide();
+            });
+            });
+        </script>
+        <!--Class Selector-->
+        <script>
+            $(document).ready(function(){
+              $("#button2").click(function(){
+                $(".test1").hide();
+              });
+            });
+        </script>
+        <!--Effects-->
+        <!--Hide and show -->
+        <script>
+            $(document).ready(function(){
+              $("#hide").click(function(){
+                $("p").hide();
+              });
+              $("#show").click(function(){
+                $("p").show();
+              });
+            });
+        </script>
+        <!--Toggle hide and show-->
+        <script>
+            $(document).ready(function(){
+              $("#toggle").click(function(){
+                $("a").toggle();
+              });
+            });
+        </script>
+        <!--Fade In-->
+        <script>
+            $(document).ready(function(){
+            $("#fi").click(function(){
+                $("#div1").fadeIn();
+                $("#div2").fadeIn("slow");
+                $("#div3").fadeIn(3000);
+            });
+            });
+        </script>
+        <!--Fade Out-->
+       <script>
+            $(document).ready(function(){
+            $("#fo").click(function(){
+                $("#div1").fadeOut();
+                $("#div2").fadeOut("slow");
+                $("#div3").fadeOut(3000);
+            });
+            });
+        </script>
+        <!--Sliding Effect-->
+        <!--Slide Down-->
+        <script> 
+            $(document).ready(function(){
+              $("#flip").click(function(){
+                $("#panel").slideDown("slow");
+              });
+            });
+        </script>
+        <!--Slide UP-->
+        <script> 
+            $(document).ready(function(){
+              $("#flip1").click(function(){
+                $("#panel1").slideUp("slow");
+              });
+            });
+        </script>
+        <!--Animation-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script> 
+            $(document).ready(function(){
+            $("#button4").click(function(){
+                $("div") 
+                .animate({left: '400px'}, "slow")
+                .animate({fontSize: '40px'}, 1000)
+                
+            });
+            });
+        </script> 
+</head>
+<body>
+    <h1 style="color: crimson;"><b>--Selectors--</b></h1>
+    <!--Paraghraph Selector-->
+    <div>
+            <h3 style="color: blue;"><u>Paragraph Selector</u></h3>
+            <p>paragraph selector</p>
+            <p>Hide Paraghraph</p>
+            <button id="button0">hide paragraph selector</button>
+    </div>
+    <!--ID Selector-->
+   <div>
+        <h3 style="color: blue;"><u>ID selector</u></h3>
+        
+        <p> Use ID selector</p>
+        <h4 id="test"> hide id selector</h4>
+        <button id="button1"> hide id selector</button>
+    </div>
+    <div> 
+            <h3 style="color: blue;"><u>Class Selector</u></h3>
+            <p>Use Class Selector</p>
+            <h4 class="test1">class selector</h4>
+            <button id="button2"> hide class selector</button> 
+    </div>
+    <!--Effects-->
+    <!--Hide and show -->
+    <h1 style="color: crimson;"><b>--Effects--</b></h1>
+    <div>
+        <h3 style="color: blue;"><u>Hide and show Paragraph</u></h3>
+        <p>If you click on the "Hide" button, I will disappear.</p>
+
+        <button id="hide">Hide</button>
+        <button id="show">Show</button>
+    </div>
+    <!--Toggle hide and show-->
+    <div>
+        <h3 style="color: blue;"><u>Toggle Hide and show</u></h3>
+        <button id="toggle">Toggle between hiding and showing the links</button>
+        <br>
+        <a href="">Google</a>
+        <br>
+        <a href="">Youtube</a>  
+    </div>
+    <!--Fade in and fade Out-->
+    <div>
+         <h3 style="color: blue;"><u>Fade in and fade Out</u></h3>
+        <button id="fi">Click to fade in boxes</button><br><br>        
+        <div id="div1" style="width:80px;height:80px;display:none;background-color:red;"></div><br>
+        <div id="div2" style="width:80px;height:80px;display:none;background-color:green;"></div><br>
+        <div id="div3" style="width:80px;height:80px;display:none;background-color:blue;"></div>
+        <button id="fo">Click to fade out boxes</button>
+    </div>
+    <div>
+        <h3 style="color: blue;"><u>Slide up and Down Effect--</u></h3>
+     <!--Slide Down-->
+        <div id="flip">Click to slide down panel</div>
+        <img id="panel" src="photo 3.jpg" />
+        <br>
+        <div id="flip1">Click to slide up panel</div>
+        <img id="panel1" src="photo 3.jpg" />
+    </div>
+    <!--Animation-->
+    <div>
+        <h3 style="color: blue;"><u>Animation</u></h3>
+        <button id="button4"> Start Animation</button>
+          <p>Animation</p>
+        <div style="background:#e0c5c5;height:50px;width:350px;position:absolute;border-radius: 5px;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;color: rgb(95, 19, 218);">*Kiran Waywale*</div>
+    </div>
+</body>
+</html>
