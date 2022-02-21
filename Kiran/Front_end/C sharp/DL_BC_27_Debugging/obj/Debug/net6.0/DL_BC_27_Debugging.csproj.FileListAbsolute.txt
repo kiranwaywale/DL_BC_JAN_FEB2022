@@ -1,0 +1,15 @@
+E:\Bootcamp\DL_BC_JAN_FEB2022\Kiran\Front_end\C sharp\DL_BC_27_Debugging\bin\Debug\net6.0\DL_BC_27_Debugging.exe
+E:\Bootcamp\DL_BC_JAN_FEB2022\Kiran\Front_end\C sharp\DL_BC_27_Debugging\bin\Debug\net6.0\DL_BC_27_Debugging.deps.json
+E:\Bootcamp\DL_BC_JAN_FEB2022\Kiran\Front_end\C sharp\DL_BC_27_Debugging\bin\Debug\net6.0\DL_BC_27_Debugging.runtimeconfig.json
+E:\Bootcamp\DL_BC_JAN_FEB2022\Kiran\Front_end\C sharp\DL_BC_27_Debugging\bin\Debug\net6.0\DL_BC_27_Debugging.dll
+E:\Bootcamp\DL_BC_JAN_FEB2022\Kiran\Front_end\C sharp\DL_BC_27_Debugging\bin\Debug\net6.0\DL_BC_27_Debugging.pdb
+E:\Bootcamp\DL_BC_JAN_FEB2022\Kiran\Front_end\C sharp\DL_BC_27_Debugging\obj\Debug\net6.0\DL_BC_27_Debugging.csproj.AssemblyReference.cache
+E:\Bootcamp\DL_BC_JAN_FEB2022\Kiran\Front_end\C sharp\DL_BC_27_Debugging\obj\Debug\net6.0\DL_BC_27_Debugging.GeneratedMSBuildEditorConfig.editorconfig
+E:\Bootcamp\DL_BC_JAN_FEB2022\Kiran\Front_end\C sharp\DL_BC_27_Debugging\obj\Debug\net6.0\DL_BC_27_Debugging.AssemblyInfoInputs.cache
+E:\Bootcamp\DL_BC_JAN_FEB2022\Kiran\Front_end\C sharp\DL_BC_27_Debugging\obj\Debug\net6.0\DL_BC_27_Debugging.AssemblyInfo.cs
+E:\Bootcamp\DL_BC_JAN_FEB2022\Kiran\Front_end\C sharp\DL_BC_27_Debugging\obj\Debug\net6.0\DL_BC_27_Debugging.csproj.CoreCompileInputs.cache
+E:\Bootcamp\DL_BC_JAN_FEB2022\Kiran\Front_end\C sharp\DL_BC_27_Debugging\obj\Debug\net6.0\DL_BC_27_Debugging.dll
+E:\Bootcamp\DL_BC_JAN_FEB2022\Kiran\Front_end\C sharp\DL_BC_27_Debugging\obj\Debug\net6.0\refint\DL_BC_27_Debugging.dll
+E:\Bootcamp\DL_BC_JAN_FEB2022\Kiran\Front_end\C sharp\DL_BC_27_Debugging\obj\Debug\net6.0\DL_BC_27_Debugging.pdb
+E:\Bootcamp\DL_BC_JAN_FEB2022\Kiran\Front_end\C sharp\DL_BC_27_Debugging\obj\Debug\net6.0\DL_BC_27_Debugging.genruntimeconfig.cache
+E:\Bootcamp\DL_BC_JAN_FEB2022\Kiran\Front_end\C sharp\DL_BC_27_Debugging\obj\Debug\net6.0\ref\DL_BC_27_Debugging.dll
