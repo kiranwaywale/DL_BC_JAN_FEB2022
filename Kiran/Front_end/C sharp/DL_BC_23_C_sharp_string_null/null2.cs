@@ -1,7 +1,7 @@
  // C# program to illustrate the
 // use of Nullable type
 using System;
-class Program
+class Prog
 {
 	// Main Method
 	static public void Main()

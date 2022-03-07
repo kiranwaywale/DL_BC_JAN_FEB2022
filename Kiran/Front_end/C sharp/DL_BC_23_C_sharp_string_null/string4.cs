@@ -1,7 +1,7 @@
  // C# program to demonstrate the
 // string creation using literals
 using System;
-class StringApplication
+class StringApplica
 {
 	// Main Method
 	static void Main(string[] args)
