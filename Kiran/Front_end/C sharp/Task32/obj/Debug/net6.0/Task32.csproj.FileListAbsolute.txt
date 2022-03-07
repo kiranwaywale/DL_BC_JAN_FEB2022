@@ -1,0 +1,15 @@
+E:\Bootcamp\DL_BC_JAN_FEB2022\Kiran\Front_end\C sharp\Task32\bin\Debug\net6.0\Task32.exe
+E:\Bootcamp\DL_BC_JAN_FEB2022\Kiran\Front_end\C sharp\Task32\bin\Debug\net6.0\Task32.deps.json
+E:\Bootcamp\DL_BC_JAN_FEB2022\Kiran\Front_end\C sharp\Task32\bin\Debug\net6.0\Task32.runtimeconfig.json
+E:\Bootcamp\DL_BC_JAN_FEB2022\Kiran\Front_end\C sharp\Task32\bin\Debug\net6.0\Task32.dll
+E:\Bootcamp\DL_BC_JAN_FEB2022\Kiran\Front_end\C sharp\Task32\bin\Debug\net6.0\Task32.pdb
+E:\Bootcamp\DL_BC_JAN_FEB2022\Kiran\Front_end\C sharp\Task32\obj\Debug\net6.0\Task32.csproj.AssemblyReference.cache
+E:\Bootcamp\DL_BC_JAN_FEB2022\Kiran\Front_end\C sharp\Task32\obj\Debug\net6.0\Task32.GeneratedMSBuildEditorConfig.editorconfig
+E:\Bootcamp\DL_BC_JAN_FEB2022\Kiran\Front_end\C sharp\Task32\obj\Debug\net6.0\Task32.AssemblyInfoInputs.cache
+E:\Bootcamp\DL_BC_JAN_FEB2022\Kiran\Front_end\C sharp\Task32\obj\Debug\net6.0\Task32.AssemblyInfo.cs
+E:\Bootcamp\DL_BC_JAN_FEB2022\Kiran\Front_end\C sharp\Task32\obj\Debug\net6.0\Task32.csproj.CoreCompileInputs.cache
+E:\Bootcamp\DL_BC_JAN_FEB2022\Kiran\Front_end\C sharp\Task32\obj\Debug\net6.0\Task32.dll
+E:\Bootcamp\DL_BC_JAN_FEB2022\Kiran\Front_end\C sharp\Task32\obj\Debug\net6.0\refint\Task32.dll
+E:\Bootcamp\DL_BC_JAN_FEB2022\Kiran\Front_end\C sharp\Task32\obj\Debug\net6.0\Task32.pdb
+E:\Bootcamp\DL_BC_JAN_FEB2022\Kiran\Front_end\C sharp\Task32\obj\Debug\net6.0\Task32.genruntimeconfig.cache
+E:\Bootcamp\DL_BC_JAN_FEB2022\Kiran\Front_end\C sharp\Task32\obj\Debug\net6.0\ref\Task32.dll
