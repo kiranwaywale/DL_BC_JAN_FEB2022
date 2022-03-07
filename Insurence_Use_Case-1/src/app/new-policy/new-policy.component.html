@@ -1,0 +1,74 @@
+<br>
+<div class="card" style="border-radius: 15px;">
+    <div class="card-body">
+        <div class="row">
+            <div class="col-md-12">
+                <form [formGroup]="myForm" novalidate>
+                    <div class="form-group">
+                        <label>Policy Title</label>
+                        <!--is-invalid class makes control border color red, as well as it will show the invalid-feedback division.
+                is-valid class makes control border color green.-->
+                        <input type="text" class="form-control" formControlName="title"
+                            [ngClass]="{'is-invalid': title.errors && (title.touched || title.dirty), 'is-valid':title.valid}">
+                        <!--using visual feedback-->
+                        <div class="invalid-feedback">
+                            <!--*ngIf Directive-->
+                            <strong *ngIf="title.errors?.required">Title is required</strong>
+                            <strong *ngIf="title.errors?.minlength">Title length must be greater than
+                                {{title.errors?.minlength.requiredLength}} character.
+                                {{title.errors?.minlength.requiredLength - title.errors?.minlength.actualLength}} more
+                                character required. </strong>
+                        </div>
+                    </div>
+                    <div class="form-group ">
+                        <label>Full Name</label>
+                        <input type="text" class="form-control" formControlName="modelName" required>
+                    </div>
+                    <div class="form-group ">
+                        <label>Parent Name</label>
+                        <input type="text" class="form-control" formControlName="color"
+                            [ngClass]="{'is-invalid': color.errors && (color.touched || color.dirty)}" required>
+                        <div class="invalid-feedback">
+                            <strong>Only Alphabets are allowed. </strong>
+                        </div>
+                    </div>
+                    <div class="form-group ">
+                        <label>Policy Type</label>
+                        <select class="form-control" formControlName="productType"
+                            [ngClass]="{'is-invalid': productType.errors && (productType.touched || productType.dirty), 'is-valid':productType.valid}">
+                            <option *ngFor="let p of productTypes" [value]="p">{{p}}</option>
+                        </select>
+                        <div class="invalid-feedback">
+                            <strong>Select Product Type.</strong>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Age</label>
+                        <input type="text" class="form-control" formControlName="brand"
+                            [ngClass]="{'is-invalid': brand.errors && (brand.touched || brand.dirty), 'is-valid':brand.valid}"
+                            required>
+                    </div>
+                    <div class="form-group">
+                        <label>Price</label>
+                        <input type="number" class="form-control" formControlName="price"
+                            [ngClass]="{'is-invalid': price.errors && (price.touched || price.dirty), 'is-valid':price.valid}">
+                        <div class="invalid-feedback">
+                            <strong *ngIf="price.errors?.required"> Price is required</strong>
+                            <strong *ngIf="price.errors?.min"> Price should be greated than zero.</strong>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-danger">Pay Now</button>
+                    <button class="btn btn-default">Reset</button>
+                </form>
+            </div>
+
+            <!-- <div class="col-md-6">
+                <label>
+                    <strong>myForm : JSON</strong>
+                </label>
+                <pre class="alert alert-dark">{{myForm.value | json}}</pre>
+            </div> -->
+        </div>
+    </div>
+</div>
+<br>

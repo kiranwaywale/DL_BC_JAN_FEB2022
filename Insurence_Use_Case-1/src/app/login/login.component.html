@@ -1,0 +1,40 @@
+<app-nav-bar></app-nav-bar>
+<app-side-bar></app-side-bar>
+<!--Lgin Started-->
+<div class="container">
+  <br>
+  <br>
+  <div class="card-deck">
+    <div class="card" style="box-shadow: 2px 2px 2px 2px red;border-radius: 15px;">
+      <form class="form" style="border-radius: 15px;">
+        <br>
+        <div class="form-column">
+          <div class="col">
+            <label for="email">Email</label>
+            <input type="text" class="form-control" id="email" placeholder="Enter email" name="email"
+              style="border-radius: 20px;">
+          </div>
+          <div class="col">
+            <label for="paw">Password</label>
+            <input type="password" class="form-control" id="paw" placeholder="Enter password" name="pswd"
+              style="border-radius: 20px;">
+          </div>
+          <div class="col">
+            <br>
+            <input type="checkbox" class="form-checkbox" id="paw"><span> Remember me </span>
+          </div>
+          <div class="col">
+            <br>
+            <button type="submit" class="btn btn-danger" style="border-radius: 20px;" onclick="">LogIn</button>
+          </div>
+          <br>
+        </div>
+      </form>
+    </div>
+    <div class="card">
+      <img [src]="login" alt="">
+    </div>
+    <app-footer></app-footer>
+  </div>
+</div>
+<!--Lgin Ended-->
